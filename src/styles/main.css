@@ -1,0 +1,105 @@
+.container {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+.home {
+    margin-top: 30px;
+    margin-left: 50px;
+    min-width: 200px;
+    width: fit-content;
+    padding: 50px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+tbody {
+    border: none;
+    outline: none;
+}
+.header table th {
+    min-width: 100px;
+    word-wrap: break-word;
+    padding: 5px;
+    background: rgb(58, 58, 58);
+    color: white;
+}
+.header table td {
+    min-width: 100px;
+    word-wrap: break-word;
+    padding: 5px;
+    background: rgb(199, 199, 199);
+}
+
+.sorted, .list {
+    margin-right: 50px;
+    display: inline-block;
+}
+.bottom-btn {
+    top: 0;
+    left: 100px;
+    position: fixed;
+}
+.bottom-btn button {
+    border: 1px solid rgb(87, 128, 216);
+    width: fit-content;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+.top-btn {
+    top: 0;
+    left: 0;
+    right: auto;
+    position: fixed;
+}
+.top-btn button {
+    border: 1px solid rgb(87, 128, 216);
+    width: fit-content;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.user-form {
+    margin: 50px 0;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+.user-form form {
+    width: 100%;
+}
+.user-form form input, .user-form form select {
+    max-width: 100%;
+    display: block;
+    margin-top: 20px;
+}
+.user-form form input {
+    padding: 5px;
+    width: 200px;
+}
+.user-form form select {
+    padding: 5px;
+}
+.user-form form button {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.row div.row-child {
+    width: fit-content;
+    display: inline-block;
+}
+.remove-user {
+    background: none;
+    outline: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
