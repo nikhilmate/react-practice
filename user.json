@@ -1,0 +1,35 @@
+{
+	"users": [
+		{
+			"id": "001",
+			"name": "nikhil",
+			"gender": "Male"
+		},
+		{
+			"id": "002",
+			"name": "sumit",
+			"gender": "Male"
+		},
+		{
+			"id": "003",
+			"name": "ankita",
+			"gender": "Female"
+		},
+		{
+			"id": "004",
+			"name": "swapnali",
+			"gender": "Female"
+		},
+		{
+			"id": "005",
+			"name": "mahadev",
+			"gender": "Male"
+		},
+		{
+			"id": "006",
+			"name": "rohit",
+			"gender": "Male"
+		}
+
+	]
+}
