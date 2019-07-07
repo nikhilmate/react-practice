@@ -2,7 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nikhilmate.github.io/tutor-react/",
+  "homepage": "https://nikhilmate.github.io/react-practice/",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
